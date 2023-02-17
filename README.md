@@ -2,7 +2,7 @@
 Create a customizable README generator so that developers can quickly generate a README for their coding projects
 
 begin test readme below:
-${license-badge}
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # ${title}
 
 # Table of Contents

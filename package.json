@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/sdoval27/readme-generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "8.2.4"
   }
 }
