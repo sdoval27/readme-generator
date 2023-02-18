@@ -1,6 +1,21 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+// TODO: Include packages needed for this application
+
+// TODO: Create an array of questions for user input
+const questions = [];
+
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {}
+
+// TODO: Create a function to initialize app
+function init() {}
+
+// Function call to initialize app
+init();
+
+
 inquirer.prompt([
     {
         type: 'input',
@@ -89,7 +104,8 @@ inquirer.prompt([
         - ${license}
         
         # Questions:
-        - [${gitUser}](${gitLink})
+        - Want to see more of my projects? visit my github at: ${gitUser}
+        - Questions about this project? Visit this project's repository [here](${gitLink}).
         - You can contact us at: ${email}`);
 
         fs.writeFile('clientREADME.md', generateReadme, (err) =>
