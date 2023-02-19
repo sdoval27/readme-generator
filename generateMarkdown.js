@@ -43,43 +43,42 @@ function generateMarkdown(data) {
     const { title, description, installation, usage, contributing, tests, license, gitUser, gitLink, email } = data;
 
     //[![License: ${license}]()
-    const markdownText = 
-    `
-    ${renderLicenseBadge(license)}
-    # ${title}
+    //${renderLicenseBadge(license)}
+    const markdownText = `
+# ${title}
 
-    ## Table of Contents
-    1. [Description](#description)
-    2. [Installation](#installation)
-    3. [Usage](#usage)
-    4. [Contributing](#contributing)
-    5. [Tests](#tests)
-    6. [License](#license)
-    7. [Questions](#questions)
-    
-    ## Description:
-    - ${description}
-    
-    ## Installation:
-    - ${installation}
-    
-    ## Usage:
-    - ${usage}
-    
-    ## Contributing:
-    - ${contributing}
-    
-    ## Tests:
-    - ${tests}
-    
-    ## License:
-    - ${renderLicenseSection(license)}
-    
-    ## Questions:
-    - Visit my github at: ${gitUser}
-    - You can contact me at: ${email}
-    - Questions about this project? Visit this project's repository [here](${gitLink}).
-    `;
+## Table of Contents
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [Tests](#tests)
+6. [License](#license)
+7. [Questions](#questions)
+
+## Description:
+- ${description}
+
+## Installation:
+- ${installation}
+
+## Usage:
+- ${usage}
+
+## Contributing:
+- ${contributing}
+
+## Tests:
+- ${tests}
+
+## License:
+- ${renderLicenseSection(license)}
+
+## Questions:
+- Visit my github at: ${gitUser}
+- You can contact me at: ${email}
+- Questions about this project? Visit this project's repository [here](${gitLink}).
+`;
 
     // return the markdown text here
     return markdownText;
