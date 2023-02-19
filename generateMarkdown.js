@@ -72,7 +72,7 @@ function generateMarkdown(data) {
 - ${tests}
 
 ## License:
-- ${renderLicenseSection(license)}
+- ${license}
 
 ## Questions:
 - Visit my github at: ${gitUser}
