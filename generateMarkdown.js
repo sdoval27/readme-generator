@@ -1,13 +1,33 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) { 
+function renderLicenseBadge(license) {
+    switch (license) {
 
+        case 'MIT':
+            // What do you want to have happen now?
+            return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+            break;
+        case 'Apache':
+            // What do you want to have happen now?
+            renderLicenseBadge(license)
+            return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+            break;
+
+            break;
+        case 'GPL':
+            renderLicenseBadge
+            return '[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)'
+        case 'none':
+            // what do you want to have happen when there's no license selected?
+            return '';
+            break;
+    }
 
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { 
+function renderLicenseLink(license) {
 
 
 }
@@ -43,8 +63,9 @@ function generateMarkdown(data) {
     const { title, description, installation, usage, contributing, tests, license, gitUser, gitLink, email } = data;
 
     //[![License: ${license}]()
-    //${renderLicenseBadge(license)}
+
     const markdownText = `
+${renderLicenseBadge(license)}
 # ${title}
 
 ## Table of Contents

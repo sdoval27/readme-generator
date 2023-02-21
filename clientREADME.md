@@ -1,4 +1,5 @@
 
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 # title
 
 ## Table of Contents
@@ -11,24 +12,24 @@
 7. [Questions](#questions)
 
 ## Description:
-- description
+- purpose
 
 ## Installation:
-- na
+- yeah
 
 ## Usage:
-- na
+- no
 
 ## Contributing:
-- na
+- sure
 
 ## Tests:
-- na
+- okay
 
 ## License:
-- MIT
+- GPL
 
 ## Questions:
-- Visit my github at: sasha
-- You can contact me at: email
-- Questions about this project? Visit this project's repository [here](link).
+- Visit my github at: sdovla
+- You can contact me at: lkjsf
+- Questions about this project? Visit this project's repository [here](lskdjf).

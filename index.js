@@ -7,59 +7,57 @@ const generateMarkdown = require('./generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [{
     type: 'input',
-    question: 'What is the title of your project?',
+    message: 'What is the title of your project?',
     name: 'title',
 },
 {
     type: 'input',
-    question: 'Describe the general purpose of this project.',
+    message: 'Describe the general purpose of this project.',
     name: 'description',
 },
 {
     type: 'input',
-    question: 'What are the installation instructions?',
+    message: 'What are the installation instructions?',
     name: 'installation',
 },
 {
     type: 'input',
-    question: 'How can users interact with this site?',
+    message: 'How can users interact with this site?',
     name: 'usage',
 },
 {
     type: 'input',
-    question: 'Who else contributed in this project?',
+    message: 'Who else contributed in this project?',
     name: 'contributing',
 },
 {
     type: 'input',
-    question: 'What is your github?',
+    message: 'Describe how to run tests for this project.',
     name: 'tests',
 },
 {
     type: 'list', //figure out how to put license badge in here
-    question: 'Which of these licenses did you use?',
+    message: 'Which of these licenses did you use?',
     choices: ['MIT', 'Apache', 'GPL', 'none'],
     name: 'license',
 },
 {
     type: 'input',
-    question: 'What is your github username?',
+    message: 'What is your github username?',
     name: 'gitUser',
 },
 {
     type: 'input',
-    question: 'What is the link to your github repository?',
+    message: 'What is the link to your github?',
     name: 'gitLink',
 },
 {
     type: 'input',
-    question: 'What is your professional email address?',
+    message: 'What is your professional email address?',
     name: 'email',
 }
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
 
 // TODO: Create a function to initialize app
 function init() { 
@@ -69,7 +67,7 @@ function init() {
         // pass your answers object into the generateMarkdown function here
         const returnedMarkdown = generateMarkdown(answers);
 
-        
+        // TODO: Create a function to write README file
         fs.writeFile('clientREADME.md', returnedMarkdown, (err) =>
             err ? console.log(err) : console.log('Success!')
         );
