@@ -1,6 +1,6 @@
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# title
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+# Sample Readme
 
 ## Table of Contents
 - [Description](#description)
@@ -12,24 +12,24 @@
 - [Questions](#questions)
 
 ## Description:
- this is the purpose of proj
+ My perpose is to be a README
 
 ## Installation:
- step one, step two, step three
+ oh my god i misspelled purpose lol
 
 ## Usage:
- they reallly cant but thanks for asking :)
+ i'm so embarassed
 
 ## Contributing:
- no one
+ forget the readme, i can't spell
 
 ## Tests:
- no, thanks though
+ i've spoken english my whole life why am i like this
 
 ## License:
-- [MIT](https://opensource.org/licenses/MIT)
+ [GPL](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 ## Questions:
- Visit my github at: sadshas
- You can contact me at: no
- Questions about this project? Visit this project's repository [here](https://github.com/sdoval27).
+ Visit my github at: no
+ You can contact me at: you can't have it
+ Questions about this project? Visit this project's repository [here](please no).
