@@ -20,23 +20,30 @@ function renderLicenseBadge(license) {
     }
 
 }
-
+//add license to table of contents
+function licenseToC(license) {
+    if (license ==='none') {
+        return '';
+    } else {
+        return `- [License](#license)`
+    }
+}
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     switch (license) {
         case 'MIT':
             // What do you want to have happen now?
-            return '(https://opensource.org/licenses/MIT)'
+            return 'https://opensource.org/licenses/MIT';
             break;
         case 'Apache':
             // What do you want to have happen now?
-            return '(https://opensource.org/licenses/Apache-2.0)';
+            return 'https://opensource.org/licenses/Apache-2.0';
             break;
 
             break;
         case 'GPL':
-            return '(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)'
+            return 'https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html';
         case 'none':
             // what do you want to have happen when there's no license selected?
             return '';
@@ -52,19 +59,13 @@ function renderLicenseSection(license) {
         return '';
     } else {
         return `## License:
-- [${license}](${renderLicenseLink(license)})`;
+ [${license}](${renderLicenseLink(license)})`;
     }
 
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-
-    //const title = data.title;
-    //const description = data.description;
-    // and so on... the long way
-
-    // destructure your constants from your answers object here; it's called data because that's the nameyou gave your parameter
     const { title, description, installation, usage, contributing, tests, license, gitUser, gitLink, email } = data;
 
     const markdownText = `
@@ -72,35 +73,35 @@ ${renderLicenseBadge(license)}
 # ${title}
 
 ## Table of Contents
-1. [Description](#description)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [Tests](#tests)
-6. [License](#license)
-7. [Questions](#questions)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+${licenseToC(license)}
+- [Questions](#questions)
 
 ## Description:
-- ${description}
+ ${description}
 
 ## Installation:
-- ${installation}
+ ${installation}
 
 ## Usage:
-- ${usage}
+ ${usage}
 
 ## Contributing:
-- ${contributing}
+ ${contributing}
 
 ## Tests:
-- ${tests}
+ ${tests}
 
 ${renderLicenseSection(license)}
 
 ## Questions:
-- Visit my github at: ${gitUser}
-- You can contact me at: ${email}
-- Questions about this project? Visit this project's repository [here](${gitLink}).
+ Visit my github at: ${gitUser}
+ You can contact me at: ${email}
+ Questions about this project? Visit this project's repository [here](${gitLink}).
 `;
 
     // return the markdown text here
@@ -108,8 +109,3 @@ ${renderLicenseSection(license)}
 };
 
 module.exports = generateMarkdown;
-
-
-/*
-
-*/

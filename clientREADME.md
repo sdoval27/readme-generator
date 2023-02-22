@@ -1,55 +1,35 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# ugh
+# title
 
 ## Table of Contents
-1. [Description](#description)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [Tests](#tests)
-6. [License](#license)
-7. [Questions](#questions)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
 
 ## Description:
-- lkj
+ this is the purpose of proj
 
 ## Installation:
-- jkl
+ step one, step two, step three
 
 ## Usage:
-- jkl
+ they reallly cant but thanks for asking :)
 
 ## Contributing:
-- jhkl
+ no one
 
 ## Tests:
-- jlkhlk
+ no, thanks though
 
 ## License:
-- [MIT](function renderLicenseLink(license) {
-    switch (license) {
-        case 'MIT':
-            // What do you want to have happen now?
-            return '(https://opensource.org/licenses/MIT)'
-            break;
-        case 'Apache':
-            // What do you want to have happen now?
-            return '(https://opensource.org/licenses/Apache-2.0)';
-            break;
-
-            break;
-        case 'GPL':
-            return '(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)'
-        case 'none':
-            // what do you want to have happen when there's no license selected?
-            return '';
-            break;
-    }
-
-})
+- [MIT](https://opensource.org/licenses/MIT)
 
 ## Questions:
-- Visit my github at: 
-- You can contact me at: j
-- Questions about this project? Visit this project's repository [here](j).
+ Visit my github at: sadshas
+ You can contact me at: no
+ Questions about this project? Visit this project's repository [here](https://github.com/sdoval27).
