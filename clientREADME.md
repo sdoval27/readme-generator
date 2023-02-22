@@ -1,6 +1,6 @@
 
-[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-# Sample Readme
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Project Title
 
 ## Table of Contents
 - [Description](#description)
@@ -12,24 +12,23 @@
 - [Questions](#questions)
 
 ## Description:
- My perpose is to be a README
+ Project description
 
 ## Installation:
- oh my god i misspelled purpose lol
+ installation
 
 ## Usage:
- i'm so embarassed
+ this is how you interact
 
 ## Contributing:
- forget the readme, i can't spell
+ no one
 
 ## Tests:
- i've spoken english my whole life why am i like this
+ this is how you run tests
 
 ## License:
- [GPL](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+ [MIT](https://opensource.org/licenses/MIT)
 
 ## Questions:
- Visit my github at: no
- You can contact me at: you can't have it
- Questions about this project? Visit this project's repository [here](please no).
+ - Visit my github at: [sdoval27](https://github.com/sdoval27)
+ - You can contact me at: sashaemail@email.com

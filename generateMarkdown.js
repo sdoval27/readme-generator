@@ -99,9 +99,8 @@ ${licenseToC(license)}
 ${renderLicenseSection(license)}
 
 ## Questions:
- Visit my github at: ${gitUser}
- You can contact me at: ${email}
- Questions about this project? Visit this project's repository [here](${gitLink}).
+ - Visit my github at: [${gitUser}](https://github.com/${gitUser})
+ - You can contact me at: ${email}
 `;
 
     // return the markdown text here
