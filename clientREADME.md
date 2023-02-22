@@ -1,6 +1,6 @@
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# Project Title
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+# This is the title
 
 ## Table of Contents
 - [Description](#description)
@@ -12,23 +12,23 @@
 - [Questions](#questions)
 
 ## Description:
- Project description
+ no no
 
 ## Installation:
- installation
+ no
 
 ## Usage:
- this is how you interact
+ nono
 
 ## Contributing:
- no one
+ please god no
 
 ## Tests:
- this is how you run tests
+ halllppppp
 
 ## License:
- [MIT](https://opensource.org/licenses/MIT)
+ [GPL](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 ## Questions:
  - Visit my github at: [sdoval27](https://github.com/sdoval27)
- - You can contact me at: sashaemail@email.com
+ - You can contact me at: ugh
