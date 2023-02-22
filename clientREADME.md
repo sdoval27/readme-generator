@@ -1,6 +1,6 @@
 
-[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-# title
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# ugh
 
 ## Table of Contents
 1. [Description](#description)
@@ -12,24 +12,44 @@
 7. [Questions](#questions)
 
 ## Description:
-- purpose
+- lkj
 
 ## Installation:
-- yeah
+- jkl
 
 ## Usage:
-- no
+- jkl
 
 ## Contributing:
-- sure
+- jhkl
 
 ## Tests:
-- okay
+- jlkhlk
 
 ## License:
-- GPL
+- [MIT](function renderLicenseLink(license) {
+    switch (license) {
+        case 'MIT':
+            // What do you want to have happen now?
+            return '(https://opensource.org/licenses/MIT)'
+            break;
+        case 'Apache':
+            // What do you want to have happen now?
+            return '(https://opensource.org/licenses/Apache-2.0)';
+            break;
+
+            break;
+        case 'GPL':
+            return '(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)'
+        case 'none':
+            // what do you want to have happen when there's no license selected?
+            return '';
+            break;
+    }
+
+})
 
 ## Questions:
-- Visit my github at: sdovla
-- You can contact me at: lkjsf
-- Questions about this project? Visit this project's repository [here](lskdjf).
+- Visit my github at: 
+- You can contact me at: j
+- Questions about this project? Visit this project's repository [here](j).
