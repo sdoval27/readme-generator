@@ -1,6 +1,6 @@
 
-
-# Project Title
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+# Sample README
 
 ## Table of Contents
 - [Description](#description)
@@ -8,26 +8,27 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
-
+- [License](#license)
 - [Questions](#questions)
 
 ## Description:
- Description
+ The purpose of this project is to create a README for your viewing pleasure :)
 
 ## Installation:
- n/a
+ Download Node JS and clone the repo from my github.
 
 ## Usage:
- n/a
+ Use inquirer to answer questions about the README content.
 
 ## Contributing:
- n/a
+ My cat.
 
 ## Tests:
  n/a
 
-
+## License:
+ [GPL](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 ## Questions:
- - Visit my github at: [n/a](https://github.com/n/a)
- - You can contact me at: n/a
+ - Visit my github at: [sdoval27](https://github.com/sdoval27)
+ - You can contact me at: sashaemail@email.com
